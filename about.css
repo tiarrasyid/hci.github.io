@@ -1,0 +1,515 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* header */
+@media only screen and (max-width: 480px) {
+  .nav {
+      height: 230px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav img {
+      margin: 5px auto;
+      margin-top: 15px;
+  }
+
+  .nav ul {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-right: 0;
+      padding: 3px;
+      padding-top: 0;
+      font-size: 12px;
+  }
+  
+  .nav ul li{
+      margin: 0 5px;
+      width: auto;
+  }
+
+  .nav a{
+      margin-top: -40px;
+  }
+  
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+  }
+
+  .imgfooter {
+      width: auto;
+      height: auto;
+  }
+
+  .fleft, .fright {
+      margin-top: 10px; 
+  }
+
+  .email, .instagram, .whatsapp {
+      margin-top: 10px;
+      width: 20px; 
+      height: 20px; 
+  }
+
+}
+
+body {
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* height: 3200px; 
+    width: 1728px; 
+    overflow: hidden;   */
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    background-color: #393E46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: flex;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    position: relative;
+  }
+
+nav a:after {
+  display: flex;
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  background: #00ADB5;
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+nav a:hover:after {
+  opacity: 1;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.button img {
+  width: 35px;
+  height: 40px;
+  margin-right: 90px;
+}
+
+.logo-container img {
+  width: auto;
+  height: auto;
+  margin-left: 90px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #393E46;
+  padding: 20px 100px;
+}
+
+.imgfooter {
+  width: auto;
+  height: auto;
+}
+
+.fleft, .fright {
+  display: flex;
+  align-items: center;
+}
+
+.email, .instagram, .whatsapp {
+  margin: 0 10px;
+}
+
+
+body {
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* height: 3200px; 
+    width: 1728px; 
+    overflow: hidden;   */
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    background-color: #393E46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: flex;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    position: relative;
+  }
+
+nav a:after {
+  display: flex;
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  background: #00ADB5;
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+nav a:hover:after {
+  opacity: 1;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.button img {
+  width: 35px;
+  height: 40px;
+  margin-right: 90px;
+}
+
+.logo-container img {
+  width: auto;
+  height: auto;
+  margin-left: 90px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #393E46;
+  padding: 20px 100px;
+}
+
+.imgfooter {
+  width: auto;
+  height: auto;
+}
+
+.fleft, .fright {
+  display: flex;
+  align-items: center;
+}
+
+.email, .instagram, .whatsapp {
+  margin: 0 10px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 60px;
+}
+
+.beforeLogin-button {
+  position: relative;
+}
+
+.beforeLogin-button:after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  background: none; 
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+.beforeLogin-button:hover:after {
+  opacity: 0;
+}
+
+/* start */
+.above {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.aboutUs {
+  font-weight: 600;
+  text-align: left;
+  font-size: 48px;
+}
+
+.texth3 {
+  font-weight: 400;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.belowe {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.imgAbout {
+  width: 675px;
+  height: 411px;
+  border-radius: 35px;
+}
+
+.contact {
+  font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the contact details */
+}
+
+.textContact {  
+  margin-left: 70px;
+  font-weight: 400;
+}
+
+.imgtext {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Spacing between contact items */
+}
+
+.imgtext img {
+  margin-right: 10px; /* Spacing between image and text */
+}
+
+@media only screen and (max-width: 768px) {
+  .above, .belowe {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  
+  .aboutUs {
+      font-size: 2rem;
+  }
+  
+  .texth3 {
+      font-size: 1rem;
+  }
+  
+  .imgAbout {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+  }
+  
+  .belowe {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .contact {
+      margin-left: 0;
+      padding-top: 20px;
+      text-align: center;
+  }
+  
+  .textContact {
+      font-size: 1rem;
+  }
+  
+  .imgtext {
+      justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nav {
+      height: 230px;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .nav img {
+      margin: 5px auto;
+      margin-top: 15px;
+  }
+
+  .nav ul {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-right: 0;
+      padding: 3px;
+      padding-top: 0;
+      font-size: 12px;
+  }
+
+  .nav ul li {
+      margin: 0 5px;
+      width: auto;
+  }
+
+  .nav a {
+      margin-top: -40px;
+  }
+
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+  }
+
+  .imgfooter {
+      width: auto;
+      height: auto;
+  }
+
+  .fleft, .fright {
+      margin-top: 10px;
+  }
+
+  .email, .instagram, .whatsapp {
+      margin-top: 10px;
+      width: 20px;
+      height: 20px;
+  }
+
+  .aboutUs {
+      font-size: 1.5rem;
+  }
+
+  .texth3 {
+      font-size: 0.875rem;
+  }
+
+  .img-container {
+      width: auto;
+  }
+
+  .belowe {
+      flex-direction: column;
+      align-items: center;
+      margin: 0 20px;
+  }
+
+  .imgAbout {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+      margin: 20px 0;
+  }
+
+  .contact {
+      margin-left: 0;
+      padding-top: 20px;
+      text-align: center;
+  }
+
+  .textContact {
+      font-size: 1rem;
+      text-align: center;
+  }
+
+  .imgtext {
+      justify-content: center;
+  }
+}

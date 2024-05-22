@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CateringZ</title>
+    <link rel="icon" type="image/x-icon" href="asets/logo.svg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="logo-container">
+                <li><img src="asets/logo.svg" alt=""></li>
+            </ul>
+            <ul class="nav_list">
+                <li><a class="nav_links" href="/index.html">Home</a></li>
+                <li><a class="nav_links" href="/product.html">Product</a></li>
+                <li><a class="nav_links" href="/testimonial.html">Testimonial</a></li>
+                <li><a class="nav_links" href="/aboutUs.html">About</a></li>
+            </ul>
+            <a href="register.html" class="button beforeLogin-button">
+                <img src="asets/akunLoggedIn.svg" alt="Avatar">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            
+            <h1>CATERINGZ</h1>
+            <h3>is a homemade culinary that has become a go-to for <br> great food at events in Jakarta, Bandung, and Malang.</h3>
+            <a href="product.html" class="button-container">
+                <button class="custom-button" id="custom-button">Discover Our Menu</button>
+            </a>
+        </section>
+        <section class="ourRecommend">
+            <h2 class="ourRec">Our <br> Recommendation</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img class="image" src="asets/nasgor.jpg" alt="">
+                    <div id="rating-container">
+                        <div class="stars" id="stars-container"> <img src="asets/rate.svg"  alt=""></div>
+                        <span id="rating-value">4.9</span>
+                    </div>
+                    <h3 class="title">Fried Rice</h3>                    
+                    <p class="sub">20.000</p>
+                </div>
+                <div class="product">
+                    <img class="image" src="asets/noodle.jpg" alt="">
+                    <div id="rating-container">
+                        <div class="stars" id="stars-container"> <img src="asets/rate.svg"  alt=""></div>
+                        <span id="rating-value">4.9</span>
+                    </div>
+                    <h3 class="title">Noodle</h3>                    
+                    <p class="sub">20.000</p>
+                </div>
+                <div class="product">
+                    <img class="image" src="asets/lamb.jpg" alt="">
+                    <div id="rating-container">
+                        <div class="stars" id="stars-container"> <img src="asets/rate.svg"  alt=""></div>
+                        <span id="rating-value">4.9</span>
+                    </div>
+                    <h3 class="title">Lamb</h3>                    
+                    <p class="sub">100.000</p>
+                </div>
+            </div>
+              
+        </section>
+        <section class="promo">
+            <h2 class="Interesting">Interesting Promotions</h2>
+            <div class="promo-list">
+                <div class="promotions1">
+                    <h3 class="subpromo1">Discounts up to 40%</h3>
+                </div>
+                <div class="promotions2">
+                    <h3 class="subpromo2">Discounts up to 100%</h3>
+                </div>
+                <div class="promotions3">
+                    <h3 class="subpromo3">Free Shipping</h3>
+                </div>
+            </div>
+        </section>
+        <section class="whyus">
+            <div class="whyl">
+                <h4 class="judul">Why <br> Should We?</h4>
+                <h4 class="subjudul">homemade culinary that has <br> 
+                    become a go-to for great food at <br> 
+                    events in Jakarta, Bandung, and <br> 
+                    Malang. Our journey began in a <br> 
+                    small kitchen, and now we're known <br> 
+                    for creating delicious experiences <br> 
+                    at all kinds of gatherings. </h4>
+                <a href="aboutUs.html" class="button-aboutUS">
+                    <button class="about-button" id="about-button">About Us</button>
+                </a>
+            </div>
+            <div class="whyr">
+                <img class="imgr" src="asets/chef.jpg" alt="">
+            </div>
+        </section>
+    </main> 
+    <footer class="footer">
+        <div class="fleft">
+            <img class="imgfooter" src="asets/footerlogo.svg" alt="Footer Logo">
+        </div>
+        <div class="fright">
+            <img class="email" src="asets/email.svg" alt="Email">
+            <img class="instagram" src="asets/instagram.svg" alt="Instagram">
+            <img class="whatsapp" src="asets/whatsapp.svg" alt="WhatsApp">
+        </div>
+    </footer>
+
+    <script src="home.js">
+    
+        const button = document.getElementById('custom-button');
+        
+        button.addEventListener('click', () => {
+             window.location.href = "aboutUs.html";
+        });</script>
+</body>
+</html>
