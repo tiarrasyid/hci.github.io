@@ -83,3 +83,20 @@ document.getElementById('toggle-password').addEventListener('click', function() 
         this.setAttribute('aria-label', 'Show password');
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navList = document.querySelector('.nav_list');
+
+    hamburgerMenu.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+});
+
+
+const button = document.getElementById('custom-button');
+        
+button.addEventListener('click', () => {
+     window.location.href = "aboutUs.html";
+});

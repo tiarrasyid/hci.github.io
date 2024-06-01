@@ -30,7 +30,41 @@
 
 /* header */
 @media only screen and (max-width: 480px) {
-  .nav {
+  .html {
+    font-size: 75%;
+  }
+  .beforeLogin-container a {
+    display: none;
+  }
+  .nav_list {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #393E46;
+    z-index: 1;
+  }
+
+  .nav_list.active {
+      display: flex;
+  }
+
+  .nav_list li {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .burger-nav {
+      display: block;
+  }
+  .avatar {
+    display: none;
+  }
+  /* .nav {
+    display: flex;
+    position: fixed;
       height: 230px;
       flex-direction: column;
       align-items: center;
@@ -57,7 +91,7 @@
 
   .nav a{
       margin-top: -40px;
-  }
+  } */
   
   .footer {
       flex-direction: column;
@@ -296,11 +330,10 @@ nav a:hover:after {
   margin: 0 10px;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  color: black;
-  font-size: 60px;
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .beforeLogin-button {
@@ -310,7 +343,7 @@ h1 {
 .beforeLogin-button:after {
   content: '';
   height: 3px;
-  width: 100%;
+  width: auto;
   border-radius: 25px;
   background: none; 
   position: absolute;
@@ -325,6 +358,12 @@ h1 {
   opacity: 0;
 }
 
+.burger-nav {
+display: none;
+width: 35px;
+height: 35px;
+cursor: pointer;
+}
 /* start */
 .above {
   margin-top: 20px;

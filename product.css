@@ -1,329 +1,368 @@
 .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* header */
+@media only screen and (max-width: 480px) {
+  .html {
+    font-size: 75%;
   }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+  .beforeLogin-container a {
+    display: none;
   }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  /* header */
-  @media only screen and (max-width: 480px) {
-    .nav {
-        height: 230px;
-        flex-direction: column;
-        align-items: center;
-    }
-  
-    .nav img {
-        margin: 5px auto;
-        margin-top: 15px;
-    }
-  
-    .nav ul {
-        margin-top: 0px;
-        margin-bottom: 5px;
-        margin-right: 0;
-        padding: 3px;
-        padding-top: 0;
-        font-size: 12px;
-    }
-    
-    .nav ul li{
-        margin: 0 5px;
-        width: auto;
-    }
-  
-    .nav a{
-        margin-top: -40px;
-    }
-    
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-    }
-  
-    .imgfooter {
-        width: auto;
-        height: auto;
-    }
-  
-    .fleft, .fright {
-        margin-top: 10px; 
-    }
-  
-    .email, .instagram, .whatsapp {
-        margin-top: 10px;
-        width: 20px; 
-        height: 20px; 
-    }
-  
-  }
-  
-  body {
-      height: auto;
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      /* height: 3200px; 
-      width: 1728px; 
-      overflow: hidden;   */
-  }
-  
-  nav {
-      font-family: 'Poppins', sans-serif;
-      height: 100px;
-      background-color: #393E46;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 auto;
-      width: 100%;
-    }
-  
-    nav ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li {
-      display: flex;
-      display: inline-block;
-      margin-right: 20px;
-    }
-    
-    nav a {
-      font-size: 1rem;
-      display: flex;
-      color: white;
-      text-decoration: none;
-      padding: 15px 15px;
-      position: relative;
-    }
-  
-  nav a:after {
-    display: flex;
-    content: '';
-    height: 3px;
+  .nav_list {
+    display: none;
+    flex-direction: column;
     width: 100%;
-    border-radius: 25px;
-    background: #00ADB5;
     position: absolute;
-    left: 0;  
-    bottom: 10px;
-    opacity: 0;
-    transition: all 0.2s;
-    pointer-events: none;
-  }
-  
-  nav a:hover:after {
-    opacity: 1;
-  }
-  
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .button img {
-    width: 35px;
-    height: 40px;
-    margin-right: 90px;
-  }
-  
-  .logo-container img {
-    width: auto;
-    height: auto;
-    margin-left: 90px;
-  }
-  
-  /* footer */
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    top: 60px;
+    left: 0;
     background-color: #393E46;
-    padding: 20px 100px;
-  }
-  
-  .imgfooter {
-    width: auto;
-    height: auto;
-  }
-  
-  .fleft, .fright {
-    display: flex;
-    align-items: center;
-  }
-  
-  .email, .instagram, .whatsapp {
-    margin: 0 10px;
-  }
-  
-  
-  body {
-      height: auto;
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      /* height: 3200px; 
-      width: 1728px; 
-      overflow: hidden;   */
-  }
-  
-  nav {
-      font-family: 'Poppins', sans-serif;
-      height: 100px;
-      background-color: #393E46;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 auto;
-      width: 100%;
-    }
-  
-    nav ul {
-      display: flex;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li {
-      display: flex;
-      display: inline-block;
-      margin-right: 20px;
-    }
-    
-    nav a {
-      font-size: 1rem;
-      display: flex;
-      color: white;
-      text-decoration: none;
-      padding: 15px 15px;
-      position: relative;
-    }
-  
-  nav a:after {
-    display: flex;
-    content: '';
-    height: 3px;
-    width: 100%;
-    border-radius: 25px;
-    background: #00ADB5;
-    position: absolute;
-    left: 0;  
-    bottom: 10px;
-    opacity: 0;
-    transition: all 0.2s;
-    pointer-events: none;
-  }
-  
-  nav a:hover:after {
-    opacity: 1;
-  }
-  
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .button img {
-    width: 35px;
-    height: 40px;
-    margin-right: 90px;
-  }
-  
-  .logo-container img {
-    width: auto;
-    height: auto;
-    margin-left: 90px;
-  }
-  
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #393E46;
-    padding: 20px 100px;
-  }
-  
-  .imgfooter {
-    width: auto;
-    height: auto;
-  }
-  
-  .fleft, .fright {
-    display: flex;
-    align-items: center;
-  }
-  
-  .email, .instagram, .whatsapp {
-    margin: 0 10px;
+    z-index: 1;
   }
 
-  h1 {
+  .nav_list.active {
+      display: flex;
+  }
+
+  .nav_list li {
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  .burger-nav {
+      display: block;
+  }
+  .avatar {
+    display: none;
+  }
+  /* .nav {
+    display: flex;
+    position: fixed;
+      height: 230px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav img {
+      margin: 5px auto;
+      margin-top: 15px;
+  }
+
+  .nav ul {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      margin-right: 0;
+      padding: 3px;
+      padding-top: 0;
+      font-size: 12px;
+  }
+  
+  .nav ul li{
+      margin: 0 5px;
+      width: auto;
+  }
+
+  .nav a{
+      margin-top: -40px;
+  } */
+  
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 0;
+  }
+
+  .imgfooter {
+      width: auto;
+      height: auto;
+  }
+
+  .fleft, .fright {
+      margin-top: 10px; 
+  }
+
+  .email, .instagram, .whatsapp {
+      margin-top: 10px;
+      width: 20px; 
+      height: 20px; 
+  }
+
+}
+
+body {
+    height: auto;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 60px;
-    margin-top: 260px;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* height: 3200px; 
+    width: 1728px; 
+    overflow: hidden;   */
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    background-color: #393E46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: flex;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    position: relative;
+  }
+
+nav a:after {
+  display: flex;
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  background: #00ADB5;
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+nav a:hover:after {
+  opacity: 1;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.button img {
+  width: 35px;
+  height: 40px;
+  margin-right: 90px;
+}
+
+.logo-container img {
+  width: auto;
+  height: auto;
+  margin-left: 90px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #393E46;
+  padding: 20px 100px;
+}
+
+.imgfooter {
+  width: auto;
+  height: auto;
+}
+
+.fleft, .fright {
+  display: flex;
+  align-items: center;
+}
+
+.email, .instagram, .whatsapp {
+  margin: 0 10px;
+}
+
+
+body {
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* height: 3200px; 
+    width: 1728px; 
+    overflow: hidden;   */
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+    background-color: #393E46;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: flex;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 1rem;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    position: relative;
+  }
+
+nav a:after {
+  display: flex;
+  content: '';
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  background: #00ADB5;
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
+}
+
+nav a:hover:after {
+  opacity: 1;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.button img {
+  width: 35px;
+  height: 40px;
+  margin-right: 90px;
+}
+
+.logo-container img {
+  width: auto;
+  height: auto;
+  margin-left: 90px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #393E46;
+  padding: 20px 100px;
+}
+
+.imgfooter {
+  width: auto;
+  height: auto;
+}
+
+.fleft, .fright {
+  display: flex;
+  align-items: center;
+}
+
+.email, .instagram, .whatsapp {
+  margin: 0 10px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .beforeLogin-button {
-    position: relative;
+  position: relative;
 }
 
 .beforeLogin-button:after {
-    content: '';
-    height: 3px;
-    width: 100%;
-    border-radius: 25px;
-    background: none; 
-    position: absolute;
-    left: 0;  
-    bottom: 10px;
-    opacity: 0;
-    transition: all 0.2s;
-    pointer-events: none;
+  content: '';
+  height: 3px;
+  width: auto;
+  border-radius: 25px;
+  background: none; 
+  position: absolute;
+  left: 0;  
+  bottom: 10px;
+  opacity: 0;
+  transition: all 0.2s;
+  pointer-events: none;
 }
 
 .beforeLogin-button:hover:after {
-    opacity: 0;
+  opacity: 0;
+}
+
+.burger-nav {
+display: none;
+width: 35px;
+height: 35px;
+cursor: pointer;
 }
 
 .ourProduct {
